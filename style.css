@@ -38,6 +38,9 @@ body{
         top: 20px;
         right: 20px;
     }
+    nav ul.active{
+        display: flex;
+    }
 }
 /* Style du buton hamburge */
 .menu-toggle{
