@@ -8,3 +8,12 @@ document.querySelectorAll('a[href^="#"]').forEach(a =>{
         )
     });
 });
+
+
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector('nav ul');
+//Ajoute un événement au click
+
+menuToggle.addEventListener('click',() =>{
+    navMenu.classList.toggle('active');
+});
