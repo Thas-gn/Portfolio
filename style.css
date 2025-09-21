@@ -14,6 +14,25 @@ body{
     color: #0b2545;
     background-color: antiquewhite;
 }
+/* Contenu Principal */
+.container{
+    display: flex;
+    gap: 20px;
+}
+/* Responsive pour téléphone */
+@media(max-width: 768px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .project{
+        width: 100%;
+    }
+}
 /* Hedder */
 header{
     background: var(--card);
